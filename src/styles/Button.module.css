@@ -1,0 +1,18 @@
+.Button {
+  padding: var(--button);
+  margin: 1rem;
+  font-family: inherit;
+  font-weight: var(--button-font-weight);
+  font-size: var(--button-font-size-small);
+  text-transform: var(--button-font-transform);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  border: var(--border);
+  cursor: pointer;
+  transition: var(--hover);
+}
+
+.Button:hover {
+  color: var(--text-color);
+  background-color: var(--color-accent);
+}

@@ -1,0 +1,39 @@
+.Explainer article {
+  display: grid;
+  grid-template: 6rem 1fr / 1.5fr 2fr;
+  gap: 2rem;
+}
+.Explainer article {
+  margin: 12rem 0;
+}
+.Explainer article:nth-child(1) > h2 {
+  grid-area: 1 / 1 / 1 / 1;
+}
+
+.Explainer article:nth-child(1) > p {
+  grid-area: 2 / 1 / 2 / 1;
+}
+
+.Explainer article:nth-child(1) > img {
+  margin-top: -1.5rem;
+  justify-self: end;
+}
+
+.Explainer article:nth-child(2) {
+  margin-top: 10rem;
+  grid-template: 6rem 1fr / 2fr 1.5fr;
+}
+
+.Explainer article:nth-child(2) > h2 {
+  grid-area: 1 / 2 / 1 / 2;
+  z-index: 999;
+}
+
+.Explainer article:nth-child(2) > p {
+  grid-area: 2 / 2 / 2 / 2;
+}
+
+.Explainer article:nth-child(2) > img {
+  margin-top: 8rem;
+  align-self: center;
+}

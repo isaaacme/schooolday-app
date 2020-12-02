@@ -1,0 +1,9 @@
+.Header {
+  background: url(../assets/bg-shapes-header.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 45vw;
+  display: grid;
+  grid-template: repeat(3, 1fr) / 1fr;
+}

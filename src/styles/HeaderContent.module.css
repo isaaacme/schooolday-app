@@ -1,0 +1,32 @@
+.HeaderContent {
+  text-align: center;
+  align-self: center;
+  max-width: 60vw;
+  margin: 0 auto;
+}
+
+.HeaderContent h1 {
+  color: var(--title-color);
+  font-size: 4.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.HeaderContent p {
+  font-weight: 400;
+  font-size: 2rem;
+  color: var(--main-color);
+}
+
+.HeaderContent Button {
+  padding: var(--button);
+  color: var(--title-color);
+  margin: 1.5rem 0;
+  font-family: inherit;
+  font-weight: var(--button-font-weight);
+  font-size: var(--button-font-size);
+  text-transform: var(--button-font-transform);
+  border-radius: var(--radius);
+  box-shadow: var(--big-shadow);
+  border: var(--border);
+}

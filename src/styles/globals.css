@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+/*Base Variables*/
+
+:root {
+  /*colors*/
+  --title-color: #180055;
+  --text-color: #222;
+  --main-color: #3a0fa6;
+  --color-accent: #ffb400;
+
+  /*styling*/
+  --radius: 0.55rem;
+  --shadow: 0.3rem 0.3rem 0 var(--title-color);
+  --big-shadow: 0.4rem 0.4rem 0 var(--title-color);
+  --border: 0.2rem solid var(--title-color);
+  --button: 0.75rem 2.5rem;
+
+  /*typography*/
+  --font: "rubik", sans-serif;
+  --button-font-weight: 700;
+  --button-font-size: 1.25rem;
+  --button-font-size-small: 1.1rem;
+  --button-font-transform: uppercase;
+
+  /*interactions*/
+  --hover: all 0.175s ease-in-out;
+  --delay: 0.35s;
+}
+
+body {
+  font-family: var(--font);
+  line-height: 1.15;
+  font-size: 20px;
+  color: var(--text-color);
+  background-color: #f1eff1;
+}
+
+h2 {
+  font-size: 2.8rem;
+  color: var(--main-color);
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 2.4rem;
+  font-weight: 600;
+  color: var(--main-color);
+}
+
+/* base styles*/
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+section {
+  margin: 4rem 0;
+}
